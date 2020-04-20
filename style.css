@@ -1,0 +1,352 @@
+/* General */
+
+* {
+    box-sizing: border-box;
+    overflow-x: scroll;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #291701;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    padding-top: 15px;
+    background-color: #105073;
+}
+
+.social-header a {
+    color: #fff;
+    font-size: 50%;
+}
+
+@media all and (min-width: 768px) {
+    .social-header a {
+        font-size: 75%;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    .social-header a {
+        font-size: 100%;
+    }
+}
+
+.social-header a .fa-inverse {
+    color: #105073;
+}
+
+.social-header a:hover {
+    color: #105073;
+}
+
+.social-header a .fa-inverse:hover {
+    color: #fff;
+}
+
+.menu-bar {
+    background-color: #1e7aaca9;
+    margin-top: 10px;
+    font-family: "Helvetica Neue";
+}
+
+.menu-bar a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+@media all and (min-width: 768px) {
+    .menu-bar a {
+        font-size: 14px;
+    }
+}
+
+.menu-bar a:hover {
+    text-shadow: 0px 3px 2px rgb(8, 8, 8);
+}
+
+.menu-list {
+    padding: 12px 0;
+    margin-bottom: 0;
+}
+
+.menu-list li:not(:last-child) {
+    margin-right: 20px;
+}
+
+@media all and (min-width: 768px) {
+    .menu-list li:not(:last-child) {
+        margin-right: 40px;
+    }
+}
+
+/* Main */
+.main-container {
+    box-shadow: 0 7px 18px rgba(0, 0, 0, .5);
+}
+
+/* Slider*/
+#slider-home {
+    margin-bottom: 50px;
+}
+
+.carousel-caption {
+    background-color: #1e7aaca9;
+    height: 100%;
+    text-align: center;
+    left: 0;
+    top: 0;
+    /* padding: 30px 45px; */
+    width: 30%;
+}
+
+.carousel-caption img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.carousel-caption h3 {
+    margin-bottom: 30px;
+}
+
+/* Form*/
+.lab {
+    padding: 0;
+}
+
+.label {
+    padding-right: 0;
+}
+
+.form {
+    font-size: 12px;
+}
+
+input {
+    font-size: 12px;
+}
+
+.input-container {
+    padding-left: 0;
+}
+
+/* Blog*/
+.article {
+    padding-top: 20px;
+    margin: 10px 0px;
+}
+
+@media (min-width: 1400px) {
+    .article {
+        padding-top: 20px;
+        margin: 30px 80px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .article {
+        padding-top: 20px;
+        margin: 10px 30px;
+    }
+}
+
+.article a {
+    color: black;
+}
+
+.image {
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.imagebox {
+    background-color: rgba(250, 246, 246, 0.842);
+    color: rgb(10, 10, 10);
+    position: absolute;
+    opacity: 1;
+    transition: 0.5s opacity;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    padding-top: 10px;
+    transition: 0.5s padding;
+    text-align: center;
+    /* max-height: 220px; */
+}
+
+.imagebox h3 {
+    font-size: 16px;
+}
+
+.imagebox p {
+    font-size: 12px;
+    color: grey;
+}
+
+@media (min-width: 1024px) {
+    .imagebox {
+        left: 20px;
+        right: 20px;
+    }
+
+    .imagebox h3 {
+        font-size: 16px;
+    }
+
+    .imagebox p {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .imagebox {
+        left: 40px;
+        right: 40px;
+    }
+
+    .imagebox h3 {
+        font-size: 18px;
+    }
+
+    .imagebox p {
+        font-size: 10px;
+    }
+}
+
+.imagebox .continue {
+    color: blue;
+}
+
+.imagebox:hover {
+    font-weight: bolder;
+    padding-bottom: 10%;
+}
+
+.imagebox:hover p {
+    color: black;
+}
+
+.aside {
+    background-color: #e0e0e0;
+    padding: 0;
+    width: 100vw;
+    margin: 0;
+
+}
+
+.aside h3 {
+    border-bottom: 1px solid #9e9e9e;
+}
+
+
+.aside p:hover {
+    color: #000;
+}
+
+/* .img-aside {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+} */
+
+/* Footer */
+.footer {
+    background-color: #105073;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer ul {
+    margin-bottom: 0;
+    padding-top: 12px;
+}
+
+.footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 400px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    h2 {
+        font-size: 1rem
+    }
+
+    h3 {
+        font-size: 0.8rem
+    }
+
+    h4 {
+        font-size: 0.7rem
+    }
+
+    p {
+        font-size: 0.6rem
+    }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.6rem
+    }
+
+    h3 {
+        font-size: 1rem
+    }
+
+    h4 {
+        font-size: 0.8rem
+    }
+
+    p {
+        font-size: 0.7rem
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    /*1rem = 16px*/
+    h2 {
+        font-size: 2rem
+    }
+
+    h3 {
+        font-size: 1.3rem
+    }
+
+    h4 {
+        font-size: 0.9rem
+    }
+
+    p {
+        font-size: 0.7rem
+    }
+}
+
+/*
