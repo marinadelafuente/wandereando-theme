@@ -4,3 +4,4 @@ Migration of a responsive HTML, CSS and JavaScript website to a custom theme for
 
 Created in a Local PHP, Apache and MySQL environment ([Local by Flywheel](https://getflywheel.com/layout/local-by-flywheel/)).
 
+!(screenshot.png)
